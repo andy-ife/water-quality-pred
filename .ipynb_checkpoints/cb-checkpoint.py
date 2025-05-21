@@ -3,8 +3,7 @@ import numpy as np
 import catboost as cat
 from sklearn.metrics import (
     accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, 
-    average_precision_score, confusion_matrix, log_loss, cohen_kappa_score,
-    ConfusionMatrixDisplay
+    average_precision_score, confusion_matrix, log_loss, cohen_kappa_score
 )
 import os
 
